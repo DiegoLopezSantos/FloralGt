@@ -103,8 +103,16 @@ export default function CatalogoFloristeria() {
                                     <Typography variant="subtitle1" className="mt-2">
                                         Q{flor.price.toFixed(2)} GTQ
                                     </Typography>
-                                    <Button sx={{ backgroundColor: '#f2c3bf' }} className="mt-4 w-full" variant="contained">
-                                        Agregar al carrito
+                                    <Button
+                                    sx={{ backgroundColor: '#f2c3bf' }}
+                                    className="mt-4 w-full"
+                                    variant="contained"
+                                    component="a"
+                                    href="https://wa.me/50239960813?text=Hola%2C%20deseo%20hacer%20un%20pedido%20de%20esta%20flor"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >
+                                    Comprar
                                     </Button>
                                 </CardContent>
                             </Card>
