@@ -82,6 +82,7 @@ export default function CatalogoFloristeria() {
                                 backgroundPosition: 'center',
                                 backgroundColor: 'rgba(255, 255, 255, 0.85)',
                                 backdropFilter: 'blur(2px)',
+                                
                             }}
                             >
                                 <img
