@@ -14,24 +14,26 @@ import nueve from '../../assets/9.jpg'
 import diez from '../../assets/10.jpg'
 import once from '../../assets/11.jpg'
 import doce from '../../assets/12.jpg'
+import trece from '../../assets/13.jpg'
 import fondo from '../../assets/fondoflores.png'
 
 const flowers = [
-    { id: 1, name: 'Rosas Rojas', price: 95, category: 'Rosas', image: uno },
-    { id: 2, name: 'Girasoles', price: 95, category: 'Rosas', image: dos },
-    { id: 3, name: 'Tulipanes', price: 95, category: 'Rosas', image: tres },
-    { id: 4, name: 'Orquídeas', price: 95, category: 'Exótico', image: cuatro },
-    { id: 5, name: 'Orquídeas', price: 95, category: 'Exótico', image: cinco },
-    { id: 6, name: 'Orquídeas', price: 95, category: 'Exótico', image: seis },
-    { id: 7, name: 'Orquídeas', price: 95, category: 'Exótico', image: siete },
-    { id: 8, name: 'Orquídeas', price: 95, category: 'Exótico', image: ocho },
-    { id: 9, name: 'Orquídeas', price: 95, category: 'Exótico', image: nueve },
-    { id: 10, name: 'Orquídeas', price: 95, category: 'Exótico', image: diez },
-    { id: 11, name: 'Orquídeas', price: 95, category: 'Exótico', image: once },
-    { id: 12, name: 'Orquídeas', price: 95, category: 'Exótico', image: doce },
+    { id: 1, name: 'Caja - Rosas diversos colores', price: 2850, category: 'Rosas', image: uno },
+    { id: 2, name: 'Caja - Rosa lila', price: 2850, category: 'Rosas', image: dos },
+    { id: 3, name: 'Caja - Rosa multicolor (azul)', price: 4250, category: 'Multi-Color', image: tres },
+    { id: 4, name: 'Caja - Rosa multicolor (negro)', price: 4250, category: 'Multi-Color', image: cuatro },
+    { id: 5, name: 'Caja - Rosa multicolor (celeste)', price: 4250, category: 'Multi-Color', image: cinco },
+    { id: 6, name: 'Caja - Limonium', price: 1590, category: 'Flores', image: seis },
+    { id: 7, name: 'Caja - Baby', price: 2010, category: 'Flores', image: siete },
+    { id: 8, name: 'Caja - Eucalipto', price: 1730, category: 'Hojas', image: ocho },
+    { id: 9, name: 'Caja - Hypericum', price: 1850, category: 'Exótico', image: nueve },
+    { id: 10, name: 'Caja - Hypericum', price: 1850, category: 'Exótico', image: diez },
+    { id: 11, name: 'Caja - Hypericum', price: 1850, category: 'Exótico', image: once },
+    { id: 12, name: 'Caja - Gerberas', price: 1590, category: 'Flores', image: doce },
+    { id: 13, name: 'Caja - Veronicas', price: 1870, category: 'Exótico', image: doce },
 ];
 
-const categorias = ['Todos', 'Rosas', 'Alegre', 'Elegante', 'Exótico'];
+const categorias = ['Todos', 'Rosas', 'Flores', 'Multi-Color', 'Hojas', 'Exótico'];
 
 export default function CatalogoFloristeria() {
     const [filtro, setFiltro] = useState('Todos');
