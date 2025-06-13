@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Button, Card, CardContent, TextField } from '@mui/material';
 import { motion } from 'framer-motion';
 import { Grid, Typography, Chip } from '@mui/material';
-import cero from '../../assets/0.jpg'
 import uno from '../../assets/1.jpg'
 import dos from '../../assets/2.jpg'
 import tres from '../../assets/3.jpg'
@@ -74,7 +73,7 @@ export default function CatalogoFloristeria() {
 
             <Grid container spacing={3}>
                 {floresFiltradas.map((flor) => (
-                    <Grid sx={{ margin: 2, backgroundImage: `${fondo}` }} item xs={12} sm={6} md={4} key={flor.id}>
+                    <Grid sx={{ margin: 2, backgroundImage: `${fondo}` }}  size={{xs: 12, sm: 6, md: 4}} key={flor.id}>
                         <motion.div whileHover={{ scale: 1.05 }}>
                             <Card className="rounded-2xl shadow-md" sx={{
                                 backgroundImage: `url(${fondo})`,
