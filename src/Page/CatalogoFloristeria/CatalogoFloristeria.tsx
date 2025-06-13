@@ -108,7 +108,7 @@ export default function CatalogoFloristeria() {
                                     className="mt-4 w-full"
                                     variant="contained"
                                     component="a"
-                                    href="https://wa.me/50239960813?text=Hola%2C%20deseo%20hacer%20un%20pedido%20de%20esta%20flor"
+                                    href={`https://wa.me/50239960813?text=Hola%2C%20deseo%20hacer%20un%20pedido%20de%20${flor.name.replace(' ', '%20')}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     >
