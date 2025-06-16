@@ -15,6 +15,7 @@ import diez from '../../assets/10.jpg'
 import once from '../../assets/11.jpg'
 import doce from '../../assets/12.jpg'
 import trece from '../../assets/13.jpg'
+import catorce from '../../assets/14.jpg'
 import fondo from '../../assets/fondoflores.png'
 
 const flowers = [
@@ -31,6 +32,7 @@ const flowers = [
     { id: 11, name: 'Caja - Hypericum', price: 1850, category: 'Exótico', image: once },
     { id: 12, name: 'Caja - Gerberas', price: 1590, category: 'Flores', image: doce },
     { id: 13, name: 'Caja - Veronicas', price: 1870, category: 'Exótico', image: trece },
+    { id: 14, name: 'Caja - Rosa multicolor (verde y negro)', price: 4250, category: 'Multi-Color', image: catorce },
 ];
 
 const categorias = ['Todos', 'Rosas', 'Flores', 'Multi-Color', 'Hojas', 'Exótico'];
