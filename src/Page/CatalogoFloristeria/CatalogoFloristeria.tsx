@@ -30,7 +30,7 @@ const flowers = [
     { id: 10, name: 'Caja - Hypericum', price: 1850, category: 'Exótico', image: diez },
     { id: 11, name: 'Caja - Hypericum', price: 1850, category: 'Exótico', image: once },
     { id: 12, name: 'Caja - Gerberas', price: 1590, category: 'Flores', image: doce },
-    { id: 13, name: 'Caja - Veronicas', price: 1870, category: 'Exótico', image: doce },
+    { id: 13, name: 'Caja - Veronicas', price: 1870, category: 'Exótico', image: trece },
 ];
 
 const categorias = ['Todos', 'Rosas', 'Flores', 'Multi-Color', 'Hojas', 'Exótico'];
